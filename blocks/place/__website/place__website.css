@@ -1,0 +1,4 @@
+.place__website {
+  grid-area: zone_2;
+  align-self: end;
+}

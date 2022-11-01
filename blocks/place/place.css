@@ -1,0 +1,10 @@
+.place {
+  width: 100%;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 460px, 484px;
+  grid-template-rows: 152px, 460px;
+  grid-template-areas: 
+  'zone_1 zone_2'
+  'zone_3 zone_4';
+}
