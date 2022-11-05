@@ -7,10 +7,6 @@
   text-decoration: none;
 }
 
-.header__lang-link:hover {
-  text-decoration: underline 1px;
-}
-
 @media screen and (max-width: 600px) {
   .header__lang-link {
     font-size: 18px;

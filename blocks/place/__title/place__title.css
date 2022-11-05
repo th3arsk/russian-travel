@@ -1,7 +1,7 @@
 .place__title {
   color: white;
   margin: 0;
-  width: 460px;
+  max-width: 460px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -22,7 +22,5 @@
     margin: 0 16px;
     font-size: 32px;
     line-height: 35px;
-    grid-row: 1;
-    grid-column: 1;
   }
 }

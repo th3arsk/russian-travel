@@ -5,6 +5,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
+  margin: 0 48px 92px 48px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -16,7 +17,6 @@
 
 @media screen and (max-width: 900px) {
   .photo-grid {
-    
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 500px) {
   .photo-grid {
+    margin: 0 16px 64px 16px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
   }

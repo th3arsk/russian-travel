@@ -1,13 +1,13 @@
 .cover__title {
   color: white;
-  margin: 245px auto 32px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  width: 560px;
-  height: 152px;
+  max-width: 560px;
+  align-self: center;
+  margin-bottom: 32;
 }
 
 @media screen and (max-width: 600px) {
@@ -15,8 +15,7 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    margin: 33px auto 16px;
-    width: 288px;
-    height: 70px;
+    max-width: 288px;
+    margin-bottom: 16px;
   }
 }

@@ -4,17 +4,11 @@
 
 @media screen and (max-width: 1120px) {
   .lead {
-    max-width: 928px;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 900px) {
-  .lead {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) {
   .lead {
     max-width: 100%;
   }

@@ -5,9 +5,9 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 0 auto 245px;
   width: 360px;
   height: 66px;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -15,8 +15,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin: 0 auto 33px;
-    width: 288px;
-    height: 48px;
+    max-width: 288px;
   }
 }
