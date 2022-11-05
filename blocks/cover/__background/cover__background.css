@@ -6,7 +6,6 @@
   text-decoration: none;
   background-image: url('../../../images/cover-trains.jpg');
   background-position: center;
-  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
