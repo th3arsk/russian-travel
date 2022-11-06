@@ -8,7 +8,7 @@
  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .intro {
     max-width: calc(100% - 32px);
     margin: 0 16px 64px 16px;

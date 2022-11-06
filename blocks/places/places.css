@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
   .places {
     max-width: 100%;
     gap: 50px;
