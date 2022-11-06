@@ -3,24 +3,25 @@
   display: grid;
   grid-row: auto 1fr;
   grid-template-columns: auto 1fr;
-  gap: 40px;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 @media screen and (max-width: 1120px) {
   .place {
-    gap: 32px;
+    column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .place {
-    gap: 28px;
+    column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
   .place {
-    gap: 32px;
+    row-gap: 32px;
     grid-template-rows: repeat( minmax(min-content max-content));
     grid-template-columns: 1fr;
 }

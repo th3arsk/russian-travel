@@ -14,11 +14,13 @@
 @media screen and (max-width: 900px) {
   .places {
     max-width: calc(100% - 24px);
+    gap: 72px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .places {
     max-width: 100%;
+    gap: 50px;
   }
 }
